@@ -310,48 +310,57 @@ h1 {
 
 /* Vídeo do Início */
 
+/* Ajuste da Seção Inteira */
 .hero-section {
-    min-height: 100vh;
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center;
-    padding: 0 5%;
-}
-
-.container-flex {
+    height: 100vh; /* Altura de uma tela cheia */
     display: flex;
     align-items: center;
-    gap: 50px; /* Espaço entre o vídeo e o texto */
-    width: 100%;
-    max-width: 1200px;
+    justify-content: center;
+    padding: 0 50px;
+    margin-top: 80px; /* Para não ficar por baixo do menu fixo */
 }
 
+/* O Container que segura os dois lados */
+.container-flex {
+    display: flex; 
+    flex-direction: row; /* Força ficar lado a lado */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 40px; /* Espaço entre vídeo e texto */
+}
+
+/* Coluna do Vídeo */
 .video-column {
     flex: 1; /* Ocupa metade do espaço */
+    max-width: 50%;
 }
 
 .video-loop {
     width: 100%;
-    height: auto;
-    border-radius: 10px; /* Bordas arredondadas opcionais */
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    height: 500px; /* Altura fixa para o vídeo não crescer demais */
+    object-fit: cover; /* Faz o vídeo preencher o espaço sem distorcer */
+    border-radius: 15px;
 }
 
+/* Coluna do Texto */
 .text-column {
-    flex: 1; /* Ocupa a outra metade */
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
 }
 
-/* Fontes diferentes como você pediu */
+/* Tamanho das Fontes */
 .titulo-estilizado {
-    font-family: 'Playfair Display', serif; /* Exemplo de fonte elegante */
-    font-size: 80px;
-    margin-bottom: 10px;
+    font-size: 60px; /* Diminuí um pouco para não quebrar o layout */
+    font-family: 'Playfair Display', serif;
+    line-height: 1.1;
+    margin-bottom: 20px;
 }
 
 .subtitulo-estilizado {
-    font-family: 'Poppins', sans-serif; /* Exemplo de fonte moderna */
-    font-size: 24px;
-    color: #666;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* --- Responsividade --- */
