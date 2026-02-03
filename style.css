@@ -308,6 +308,52 @@ h1 {
     margin-top: 5px;
 }
 
+/* Vídeo do Início */
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Espaço entre o vídeo e o texto */
+    width: 100%;
+    max-width: 1200px;
+}
+
+.video-column {
+    flex: 1; /* Ocupa metade do espaço */
+}
+
+.video-loop {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Bordas arredondadas opcionais */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.text-column {
+    flex: 1; /* Ocupa a outra metade */
+}
+
+/* Fontes diferentes como você pediu */
+.titulo-estilizado {
+    font-family: 'Playfair Display', serif; /* Exemplo de fonte elegante */
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.subtitulo-estilizado {
+    font-family: 'Poppins', sans-serif; /* Exemplo de fonte moderna */
+    font-size: 24px;
+    color: #666;
+}
+
 /* --- Responsividade --- */
 
 @media (max-width: 768px) {
