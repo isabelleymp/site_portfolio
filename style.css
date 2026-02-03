@@ -220,3 +220,42 @@ h1 {
 .btn:hover {
     transform: translateY(-2px);
 }
+
+/* --- Responsividade --- */
+
+@media (max-width: 768px) {
+    /* Ajusta o espaçamento do topo */
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Diminui o tamanho da fonte principal para não quebrar no celular */
+    h1 {
+        font-size: 50px;
+    }
+
+    .tagline {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    /* Coloca os botões um em cima do outro se a tela for muito pequena */
+    .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
