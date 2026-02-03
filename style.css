@@ -1,3 +1,8 @@
+/* Transição suave */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Reset básico */
 * {
     margin: 0;
