@@ -226,6 +226,24 @@ h1 {
     transform: translateY(-2px);
 }
 
+
+/* Estilo geral para todas as seções */
+.section-container {
+    padding: 100px 20px; /* Dá espaço no topo e embaixo */
+    min-height: 80vh;    /* Faz cada seção ser quase do tamanho da tela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Opcional: Cores diferentes para separar visualmente */
+#sobre { background-color: #f9f9f9; }
+#servicos { background-color: #ffffff; }
+#contato { background-color: #f4f4f4; }
+
+
 /* Seção Portfolio */
 
 .portfolio {
