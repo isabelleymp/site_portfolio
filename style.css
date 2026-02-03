@@ -221,6 +221,84 @@ h1 {
     transform: translateY(-2px);
 }
 
+/* Seção Portfolio */
+
+.portfolio {
+    padding: 80px 10%;
+    background-color: #fff;
+}
+
+.portfolio h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.grid-portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.video-placeholder {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: #eee;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.video-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.play-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(181, 164, 139, 0.9);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.card:hover .video-placeholder img {
+    transform: scale(1.05);
+}
+
+.card:hover .play-overlay {
+    opacity: 1;
+}
+
+.card h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+
+.card p {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+}
+
 /* --- Responsividade --- */
 
 @media (max-width: 768px) {
