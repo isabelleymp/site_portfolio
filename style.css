@@ -1,0 +1,116 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fafafa;
+    /* Efeito de pontos no fundo */
+    background-image: radial-gradient(#d1d1d1 1px, transparent 1px);
+    background-size: 30px 30px;
+    color: #333;
+}
+
+/* Header e Navegação */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8c7a5b; /* Tom dourado/bronze */
+}
+
+.logo span { color: #333; }
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+nav a.active, nav a:hover {
+    color: #000;
+    border-bottom: 1px solid #8c7a5b;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subtitle {
+    letter-spacing: 4px;
+    font-size: 12px;
+    color: #b5a48b;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    line-height: 0.9;
+    margin-bottom: 30px;
+}
+
+.highlight {
+    color: #b5a48b;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #777;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+/* Botões */
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-dark {
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-outline {
+    border: 1px solid #ccc;
+    color: #111;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
