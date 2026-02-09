@@ -364,6 +364,48 @@ h1 {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Contato */
+
+.secao-contato {
+    text-align: center;
+    padding: 60px 20px;
+    font-family: sans-serif;
+}
+
+.secao-contato h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.secao-contato p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.botoes-contato {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaço entre os botões */
+    flex-wrap: wrap; /* Quebra linha no celular */
+}
+
+.botao {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+/* Efeito de hover (passar o mouse) */
+.botao:hover {
+    background-color: #333;
+    color: #fff;
+}
+
 /* --- Responsividade --- */
 
 @media (max-width: 768px) {
@@ -400,14 +442,5 @@ h1 {
     .btn {
         width: 100%;
         text-align: center;
-    }
-}
-
-/* Rodapé portfólio */
-
-    .footer-conteudo {
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
     }
 }
