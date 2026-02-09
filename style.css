@@ -367,8 +367,10 @@ h1 {
 /* Contato */
 
 .secao-contato {
-    text-align: center;
+    text-align: left;
     padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
     font-family: sans-serif;
 }
 
@@ -385,8 +387,10 @@ h1 {
 
 .botoes-contato {
     display: flex;
-    justify-content: center;
-    gap: 15px; /* Espaço entre os botões */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px; /* Espaço entre os botões */
+    margin-top: 20px;
     flex-wrap: wrap; /* Quebra linha no celular */
 }
 
@@ -398,6 +402,9 @@ h1 {
     border-radius: 5px;
     font-weight: 500;
     transition: all 0.3s ease; /* Efeito suave ao passar o mouse */
+    display: inline-block;
+    min-width: 150px;
+    text-align: center;
 }
 
 /* Efeito de hover (passar o mouse) */
