@@ -429,7 +429,6 @@ h1 {
 
 /* Rodapé portfólio */
 
-@media (max-width: 600px) {
     .footer-conteudo {
         flex-direction: column;
         text-align: center;
