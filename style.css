@@ -372,13 +372,13 @@ h1 {
     font-family: sans-serif;
 }
 
-.secao-contato h2 {
+.secao-contato h1 {
     font-size: 28px;
     margin-bottom: 10px;
     color: #333;
 }
 
-.secao-contato p {
+.secao-contato h2 {
     color: #666;
     margin-bottom: 30px;
 }
