@@ -77,20 +77,69 @@
 
 <section id="contato" class="section-container">
     
-    <h2>Gostou do meu trabalho?</h2>
-    <h2>Entre em contato comigo!</h2>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <a href="mailto:isabelleyukari.contato@gmail.com" class="seu-botao">
-    <i class="fa-regular fa-envelope"></i> E-mail
-</a>
+<style>
+  /* 2. ESTILO DOS BOTÕES (CSS) */
+  .container-contato {
+    background-color: #121212; /* Cor de fundo escura da sua foto */
+    padding: 40px;
+    text-align: center;
+    font-family: sans-serif;
+  }
 
-<a href="https://www.linkedin.com/in/isabelle-yukari-1597733a4/" class="seu-botao">
-    <i class="fa-brands fa-linkedin-in"></i> LinkedIn
-</a>
+  .titulo {
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
 
-<a href="https://instagram.com/seuusuario" class="seu-botao">
-    <i class="fa-brands fa-instagram"></i> Instagram
-</a>
+  .lista-botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Espaço entre os botões */
+  }
+
+  .btn-contato {
+    text-decoration: none; /* Remove o sublinhado azul */
+    color: #888; /* Cor do texto e ícone */
+    border: 1px solid #333; /* Borda fina e escura */
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px; /* Largura fixa para ficarem iguais */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px; /* Espaço entre ícone e texto */
+    transition: 0.3s;
+  }
+
+  /* Efeito quando passa o mouse */
+  .btn-contato:hover {
+    background-color: #1e1e1e;
+    color: #fff;
+    border-color: #555;
+  }
+</style>
+
+<div class="container-contato">
+  <h2 class="titulo">Gostou do meu trabalho?<br>Entre em contato comigo!</h2>
+
+  <div class="lista-botoes">
+    <a href="mailto:seuemail@exemplo.com" class="btn-contato">
+      <i class="fa-regular fa-envelope"></i> E-mail
+    </a>
+
+    <a href="https://linkedin.com/in/seu-perfil" target="_blank" class="btn-contato">
+      <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+    </a>
+
+    <a href="https://instagram.com/seu-perfil" target="_blank" class="btn-contato">
+      <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+  </div>
+</div>
     
 </section>
     
