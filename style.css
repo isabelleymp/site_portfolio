@@ -413,6 +413,19 @@ h1 {
     color: #fff;
 }
 
+.seu-botao {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o ícone e o texto */
+    justify-content: center; /* Centraliza o conteúdo no botão */
+    gap: 12px; /* Cria o espaço exato entre o ícone e a palavra */
+    /* Seus outros estilos de borda e cor aqui... */
+}
+
+/* Garante que o ícone tenha um tamanho bom */
+.seu-botao i {
+    font-size: 1.2rem;
+}
+
 /* --- Responsividade --- */
 
 @media (max-width: 768px) {
