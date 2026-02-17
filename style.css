@@ -225,7 +225,7 @@ h1 {
 
 /* Opcional: Cores diferentes para separar visualmente */
 #sobre { background-color: #48251c; }
-#servicos { background: linear-gradient(to bottom, #b2cdff, #48251c; }
+#servicos { background: linear-gradient(to bottom, #b2cdff, #48251c); }
 #contato { background-color: #48251c; }
 
 
