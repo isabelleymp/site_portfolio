@@ -363,6 +363,26 @@ h1 {
     font-family: 'Poppins', sans-serif;
 }
 
+.apresentacao {
+    display: flex;          /* Ativa o modo de caixa flexível */
+    align-items: center;    /* Alinha verticalmente no centro */
+    justify-content: center; /* Centraliza o conjunto na tela */
+    gap: 40px;              /* Espaço entre a foto e o texto */
+    padding: 60px 20px;
+    background-color: #3b2219; /* A cor marrom que está no seu desenho */
+    color: white;           /* Cor do texto */
+}
+
+.foto img {
+    width: 300px;           /* Ajuste o tamanho da sua foto aqui */
+    border: 2px solid white; /* Borda branca como no desenho */
+    border-radius: 8px;
+}
+
+.conteudo {
+    max-width: 500px;       /* Evita que o texto fique largo demais */
+}
+
 /* Contato */
 
 .secao-contato {
