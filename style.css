@@ -211,6 +211,26 @@ h1 {
     transform: translateY(-2px);
 }
 
+/* Seção Sobre */
+
+.sobre-container {
+  display: flex;          /* Ativa o modo de colunas lado a lado */
+  align-items: center;    /* Alinha os itens verticalmente ao centro */
+  justify-content: center; /* Centraliza o conjunto todo na tela */
+  gap: 40px;              /* Cria um espaço entre a foto e o texto */
+  padding: 50px;
+  background-color: #48251c;
+  color: white;
+}
+
+.foto-perfil {
+  width: 300px;           /* Ajuste o tamanho da foto como preferir */
+}
+
+.texto-sobre {
+  max-width: 500px;       /* Evita que o texto fique largo demais */
+  text-align: left;       /* Garante que o texto fique alinhado à esquerda */
+}
 
 /* Estilo geral para todas as seções */
 .section-container {
