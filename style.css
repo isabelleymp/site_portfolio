@@ -225,6 +225,7 @@ h1 {
 
 .foto-perfil img {
     width: 100%;
+    max-width: 300px;
     height: auto;
 }
 
