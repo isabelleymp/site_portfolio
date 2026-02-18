@@ -229,6 +229,11 @@ h1 {
     height: auto;
 }
 
+.texto-sobre h1 {
+    font-size: 2rem; /* Ajuste este valor (ex: 1.5rem ou 32px) para o tamanho que desejar */
+    margin-bottom: 10px; /* Reduz o espaço entre o título e o texto abaixo dele */
+}
+
 .texto-sobre {
   max-width: 500px;       /* Evita que o texto fique largo demais */
   text-align: left;       /* Garante que o texto fique alinhado à esquerda */
