@@ -211,34 +211,38 @@ h1 {
     transform: translateY(-2px);
 }
 
+
 /* Seção Sobre */
 
-.sobre-container {
-  display: flex;          /* Ativa o modo de colunas lado a lado */
-  align-items: center;    /* Alinha os itens verticalmente ao centro */
-  justify-content: center; /* Centraliza o conjunto todo na tela */
-  gap: 200px;              /* Cria um espaço entre a foto e o texto */
-  padding: 100px 20px;
-  min-height: 80vh;
-  background-color: #48251c;
-  color: white;
-}
-
-.foto-perfil img {
+.container-sobre {
+    display: flex;
+    flex-direction: row;      /* Garante que fiquem LADO A LADO no PC */
+    align-items: center;      /* Alinha verticalmente no centro */
+    justify-content: center;  /* Centraliza o conjunto na tela */
+    gap: 40px;                /* Espaço entre a foto e o texto */
+    background-color: #4a2c22; 
+    padding: 50px;
     width: 100%;
-    max-width: 300px;
-    height: auto;
+    min-height: 400px;        /* Evita que o fundo corte o texto */
 }
 
-.texto-sobre h1 {
+.bloco-foto img {
+    width: 300px;             /* Tamanho fixo no PC */
+    height: auto;
+    display: block;
+}
+
+.bloco-texto {
+    max-width: 500px;         /* Limita a largura do texto no PC */
+    text-align: left;
+    color: white;
+}
+
+.bloco-texto h1 {
     font-size: 4rem; /* Ajuste este valor (ex: 1.5rem ou 32px) para o tamanho que desejar */
     margin-bottom: 20px; /* Reduz o espaço entre o título e o texto abaixo dele */
 }
 
-.texto-sobre {
-  max-width: 500px;       /* Evita que o texto fique largo demais */
-  text-align: left;       /* Garante que o texto fique alinhado à esquerda */
-}
 
 /* Estilo geral para todas as seções */
 .section-container {
@@ -513,18 +517,19 @@ h1 {
 
 /* Sobre Modo Celular */
 
-.sobre-container {
-        flex-direction: column; /* FORÇA a foto para cima e o texto para baixo */
-        text-align: center;      /* Centraliza o texto para um visual melhor no mobile */
+.container-sobre {
+        flex-direction: column; /* MUDA para um em cima do outro APENAS no celular */
+        padding: 20px;
+        text-align: center;    /* Centraliza o texto no celular */
     }
 
-    .foto-perfil img {
-        width: 100%;             /* A imagem ocupa a largura disponível */
-        max-width: 300px;        /* Mas não deixa ela ficar exagerada */
-        height: auto;
+    .bloco-foto img {
+        width: 80%;            /* Foto se ajusta à tela do celular */
+        max-width: 250px;
+        margin-bottom: 20px;   /* Espaço entre a foto e o título */
     }
-    
-    .texto-sobre {   /* A div do texto */
-        width: 100%;
+
+    .bloco-texto {
+        max-width: 100%;       /* Texto ocupa a largura toda no celular */
     }
 }
