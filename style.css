@@ -513,7 +513,6 @@ h1 {
         width: 100%;
         text-align: center;
     }
-}
 
 /* Sobre Modo Celular */
 
@@ -532,4 +531,6 @@ h1 {
     .bloco-texto {
         max-width: 100%;       /* Texto ocupa a largura toda no celular */
     }
+}
+
 }
