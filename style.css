@@ -511,18 +511,20 @@ h1 {
     }
 }
 
-.seu-container-sobre {
+/* Sobre Modo Celular */
+
+.sobre-container {
         flex-direction: column; /* FORÇA a foto para cima e o texto para baixo */
         text-align: center;      /* Centraliza o texto para um visual melhor no mobile */
     }
 
-    .seu-container-sobre img {
+    .foto-perfil img {
         width: 100%;             /* A imagem ocupa a largura disponível */
         max-width: 300px;        /* Mas não deixa ela ficar exagerada */
         height: auto;
     }
     
-    .seu-container-sobre div {   /* A div do texto */
+    .texto-sobre {   /* A div do texto */
         width: 100%;
     }
 }
