@@ -217,7 +217,7 @@ h1 {
   display: flex;          /* Ativa o modo de colunas lado a lado */
   align-items: center;    /* Alinha os itens verticalmente ao centro */
   justify-content: center; /* Centraliza o conjunto todo na tela */
-  gap: 40px;              /* Cria um espaço entre a foto e o texto */
+  gap: 200px;              /* Cria um espaço entre a foto e o texto */
   padding: 100px 20px;
   min-height: 80vh;
   background-color: #48251c;
@@ -231,8 +231,8 @@ h1 {
 }
 
 .texto-sobre h1 {
-    font-size: 2rem; /* Ajuste este valor (ex: 1.5rem ou 32px) para o tamanho que desejar */
-    margin-bottom: 10px; /* Reduz o espaço entre o título e o texto abaixo dele */
+    font-size: 4rem; /* Ajuste este valor (ex: 1.5rem ou 32px) para o tamanho que desejar */
+    margin-bottom: 20px; /* Reduz o espaço entre o título e o texto abaixo dele */
 }
 
 .texto-sobre {
@@ -252,7 +252,6 @@ h1 {
 }
 
 /* Opcional: Cores diferentes para separar visualmente */
-#sobre { background-color: #48251c; }
 #servicos { background: linear-gradient(to bottom, #b2cdff, #48251c); }
 #contato { background-color: #48251c; }
 
