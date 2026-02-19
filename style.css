@@ -510,3 +510,19 @@ h1 {
         text-align: center;
     }
 }
+
+.seu-container-sobre {
+        flex-direction: column; /* FORÇA a foto para cima e o texto para baixo */
+        text-align: center;      /* Centraliza o texto para um visual melhor no mobile */
+    }
+
+    .seu-container-sobre img {
+        width: 100%;             /* A imagem ocupa a largura disponível */
+        max-width: 300px;        /* Mas não deixa ela ficar exagerada */
+        height: auto;
+    }
+    
+    .seu-container-sobre div {   /* A div do texto */
+        width: 100%;
+    }
+}
