@@ -243,6 +243,10 @@ h1 {
     margin-bottom: 20px; /* Reduz o espaço entre o título e o texto abaixo dele */
 }
 
+p {
+    margin-bottom: 25px;
+}
+
 
 /* Estilo geral para todas as seções */
 .section-container {
