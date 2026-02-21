@@ -255,7 +255,8 @@ p {
 }
 
 .tag {
-  background-color: transparent;
+  background-color: #271e1b;
+  border-radius: 5px;
   padding: 8px 20px;             /* Espaço interno (altura e largura) */
   font-family: sans-serif;       /* Fonte limpa */
   font-size: 14px;
