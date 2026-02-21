@@ -539,8 +539,9 @@ p {
 
 .container-sobre {
         flex-direction: column; /* MUDA para um em cima do outro APENAS no celular */
-        padding: 20px;
-        text-align: center;    /* Centraliza o texto no celular */
+        padding: 80px 20px;
+        text-align: center;
+        gap: 60px;/* Centraliza o texto no celular */
     }
 
     .bloco-foto img {
