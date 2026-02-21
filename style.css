@@ -523,9 +523,11 @@ h1 {
     }
 
     .bloco-foto img {
-        width: 80%;            /* Foto se ajusta à tela do celular */
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center;     /* Centraliza verticalmente (se necessário) */
+        width: 100%;           /* Foto se ajusta à tela do celular */
         max-width: 250px;
-        margin-bottom: 20px;   /* Espaço entre a foto e o título */
     }
 
     .bloco-texto {
