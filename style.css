@@ -561,7 +561,13 @@ p {
     font-size: 3rem; /* Ajuste este valor (ex: 1.5rem ou 32px) para o tamanho que desejar */
     margin-bottom: 20px; /* Reduz o espaço entre o título e o texto abaixo dele */
     }
-    
-}
+
+.container-tags {
+  display: flex;
+  flex-wrap: wrap; /* Faz as tags irem para baixo se não couberem na linha */
+  gap: 10px;       /* Espaço entre uma tag e outra */
+  margin-top: 20px; /* Espaço entre o título e as tags */
+  justify-content: center;
+  }
 
 }
