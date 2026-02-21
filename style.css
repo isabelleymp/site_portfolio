@@ -239,7 +239,7 @@ h1 {
 }
 
 .bloco-texto h1 {
-    font-size: 4rem; /* Ajuste este valor (ex: 1.5rem ou 32px) para o tamanho que desejar */
+    font-size: 3.7rem; /* Ajuste este valor (ex: 1.5rem ou 32px) para o tamanho que desejar */
     margin-bottom: 20px; /* Reduz o espaço entre o título e o texto abaixo dele */
 }
 
@@ -254,15 +254,12 @@ p {
   margin-top: 20px; /* Espaço entre o título e as tags */
 }
 
-/* Estilo individual de cada "pílula" */
 .tag {
-  background-color: transparent; /* Fundo transparente como no seu print */
-  border: 1px solid #ccc;        /* Bordinha cinza clara */
-  border-radius: 50px;           /* Deixa as pontas bem arredondadas */
+  background-color: transparent;
   padding: 8px 20px;             /* Espaço interno (altura e largura) */
   font-family: sans-serif;       /* Fonte limpa */
   font-size: 14px;
-  color: #333;                   /* Cor do texto */
+  color: #ffffff;                   /* Cor do texto */
   display: inline-block;
 }
 
