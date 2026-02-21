@@ -247,6 +247,25 @@ p {
     margin-bottom: 25px;
 }
 
+.container-tags {
+  display: flex;
+  flex-wrap: wrap; /* Faz as tags irem para baixo se não couberem na linha */
+  gap: 10px;       /* Espaço entre uma tag e outra */
+  margin-top: 20px; /* Espaço entre o título e as tags */
+}
+
+/* Estilo individual de cada "pílula" */
+.tag {
+  background-color: transparent; /* Fundo transparente como no seu print */
+  border: 1px solid #ccc;        /* Bordinha cinza clara */
+  border-radius: 50px;           /* Deixa as pontas bem arredondadas */
+  padding: 8px 20px;             /* Espaço interno (altura e largura) */
+  font-family: sans-serif;       /* Fonte limpa */
+  font-size: 14px;
+  color: #333;                   /* Cor do texto */
+  display: inline-block;
+}
+
 
 /* Estilo geral para todas as seções */
 .section-container {
