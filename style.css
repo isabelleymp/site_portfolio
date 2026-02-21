@@ -533,6 +533,13 @@ h1 {
     .bloco-texto {
         max-width: 100%;       /* Texto ocupa a largura toda no celular */
     }
+
+    .bloco-texto h1 {
+    text-align: center;
+    font-size: 3rem; /* Ajuste este valor (ex: 1.5rem ou 32px) para o tamanho que desejar */
+    margin-bottom: 20px; /* Reduz o espaço entre o título e o texto abaixo dele */
+    }
+    
 }
 
 }
