@@ -359,8 +359,6 @@ p {
     margin-top: 5px;
 }
 
-/* Vídeo do Início */
-
 /* Seção Hero */
 .hero-section {
     padding: 100px 20px;
@@ -383,16 +381,8 @@ p {
   font-size: 1.5rem;
 }
 
-/* Moldura da Imagem */
-.image-frame {
-  border: 2px solid #000;
-  padding: 10px;
-  background: white;
-}
-
 .image-frame img {
-  width: 100%;
-  filter: grayscale(100%); /* Mantém o estilo P&B da foto */
+  width: 40%;
   display: block;
 }
 
