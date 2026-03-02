@@ -289,20 +289,23 @@ p {
 }
 
 /* Seção Hero */
-.hero-section {
-    padding: 100px 20px;
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 50px;
-    margin-top: 80px; /* Para não ficar por baixo do menu fixo */
 
-    .design-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centraliza os textos em relação à imagem */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 100px 20px;
+    padding: 0 50px;
+    margin-top: 80px;
+}
+
+.design-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-text: center;
 }
 
 /* Texto de cima */
@@ -318,8 +321,9 @@ p {
 }
 
 .image-frame img {
-  width: 40%;
+  width: 400px;
   display: block;
+  margin: 0 auto;
 }
 
 /* Título de baixo (O "Portfólio") */
