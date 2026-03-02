@@ -361,7 +361,7 @@ p {
 
 /* Vídeo do Início */
 
-/* Ajuste da Seção Inteira */
+/* Seção Hero */
 .hero-section {
     padding: 100px 20px;
     min-height: 80vh;
@@ -370,70 +370,49 @@ p {
     justify-content: center;
     padding: 0 50px;
     margin-top: 80px; /* Para não ficar por baixo do menu fixo */
+
+/* Texto de cima */
+.author-tag {
+  display: inline-block;
+  background: white;
+  padding: 0 15px;
+  font-weight: bold;
+  position: relative;
+  top: 20px; /* Faz o texto "sentar" na borda da foto */
+  z-index: 10;
+  font-size: 1.5rem;
 }
 
-/* O Container que segura os dois lados */
-.container-flex {
-    display: flex; 
-    flex-direction: row; /* Força ficar lado a lado */
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    gap: 40px; /* Espaço entre vídeo e texto */
+/* Moldura da Imagem */
+.image-frame {
+  border: 2px solid #000;
+  padding: 10px;
+  background: white;
 }
 
-/* Coluna do Vídeo */
-.video-column {
-    flex: 1; /* Ocupa metade do espaço */
-    max-width: 50%;
+.image-frame img {
+  width: 100%;
+  filter: grayscale(100%); /* Mantém o estilo P&B da foto */
+  display: block;
 }
 
-.video-loop {
-    width: 100% !important;
-    height: auto !important;
-    display: block !important; /* Garante que ele não esteja escondido */
-    min-height: 400px;         /* Força uma altura mínima para ele não sumir */
-    object-fit: cover;
-}
-
-/* Coluna do Texto */
-.text-column {
-    flex: 1;
-    max-width: 50%;
-    text-align: left;
-}
-
-/* Tamanho das Fontes */
-.titulo-estilizado {
-    font-size: 60px; /* Diminuí um pouco para não quebrar o layout */
-    font-family: 'Playfair Display', serif;
-    line-height: 1.1;
-    margin-bottom: 20px;
-}
-
-.subtitulo-estilizado {
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.apresentacao {
-    display: flex;          /* Ativa o modo de caixa flexível */
-    align-items: center;    /* Alinha verticalmente no centro */
-    justify-content: center; /* Centraliza o conjunto na tela */
-    gap: 40px;              /* Espaço entre a foto e o texto */
-    padding: 60px 20px;
-    background-color: #3b2219; /* A cor marrom que está no seu desenho */
-    color: white;           /* Cor do texto */
-}
-
-.foto img {
-    width: 300px;           /* Ajuste o tamanho da sua foto aqui */
-    border: 2px solid white; /* Borda branca como no desenho */
-    border-radius: 8px;
-}
-
-.conteudo {
-    max-width: 500px;       /* Evita que o texto fique largo demais */
+/* Título de baixo (O "Portfólio") */
+.main-title {
+  font-family: 'Cursive', sans-serif; /* Use uma Google Font como 'Pacifico' */
+  font-size: 5rem;
+  margin: 0;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  color: black;
+  /* Efeito de borda branca para ler por cima da foto */
+  text-shadow: 
+    -2px -2px 0 #fff,  
+     2px -2px 0 #fff,
+    -2px  2px 0 #fff,
+     2px  2px 0 #fff;
 }
 
 /* Contato */
