@@ -363,7 +363,8 @@ p {
 
 /* Ajuste da Seção Inteira */
 .hero-section {
-    height: 100vh; /* Altura de uma tela cheia */
+    padding: 100px 20px;
+    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
