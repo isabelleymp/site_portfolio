@@ -39,49 +39,6 @@ header {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Opcional: adiciona uma sombra sutil para destacar */
 }
 
-/* Hero Section */
-.hero {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.subtitle {
-    letter-spacing: 4px;
-    font-size: 12px;
-    color: #b5a48b;
-    margin-bottom: 10px;
-}
-
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 80px;
-    line-height: 0.9;
-    margin-bottom: 30px;
-}
-
-.highlight {
-    color: #b5a48b;
-}
-
-.tagline {
-    font-size: 18px;
-    color: #777;
-    max-width: 600px;
-    margin-bottom: 40px;
-}
-
-.btn:hover {
-    opacity: 0.8;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: 'Inter', sans-serif;
