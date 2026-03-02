@@ -206,7 +206,6 @@ p {
 }
 
 /* Opcional: Cores diferentes para separar visualmente */
-#servicos { background: linear-gradient(to bottom, #b2cdff, #48251c); }
 #contato { background-color: #48251c; }
 
 
@@ -327,16 +326,7 @@ p {
 .main-title {
   font-family: 'Cursive', sans-serif; /* Use uma Google Font como 'Pacifico' */
   font-size: 5rem;
-  margin: 0;
-  position: absolute;
-  bottom: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 20;
-  color: black;
-  -webkit-text-stroke: 3px white;
-}
-
+    
 /* Contato */
 
 .secao-contato {
