@@ -311,13 +311,12 @@ p {
 /* Texto de cima */
 .author-tag {
   display: inline-block;
-  background: white;
-  padding: 0 15px;
   font-weight: bold;
   position: relative;
   top: 20px; /* Faz o texto "sentar" na borda da foto */
   z-index: 10;
   font-size: 1.5rem;
+  -webkit-text-stroke: 1px white;
 }
 
 .image-frame img {
@@ -337,12 +336,7 @@ p {
   transform: translateX(-50%);
   z-index: 20;
   color: black;
-  /* Efeito de borda branca para ler por cima da foto */
-  text-shadow: 
-    -2px -2px 0 #fff,  
-     2px -2px 0 #fff,
-    -2px  2px 0 #fff,
-     2px  2px 0 #fff;
+  -webkit-text-stroke: 3px white;
 }
 
 /* Contato */
