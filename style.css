@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lora', sans-serif;
     background-color: #e3dfce;
     /* Efeito de pontos no fundo */
     background-image: radial-gradient(#d1d1d1 1px, transparent 1px);
@@ -41,7 +41,7 @@ header {
 
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lora', sans-serif;
     background-color: #b2cdff;
     background-size: 40px 40px;
     color: #333;
