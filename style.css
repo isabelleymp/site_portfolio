@@ -136,28 +136,19 @@ h1 {
     transform: translateY(-2px);
 }
 
-/* Vinheta Halftone */
+/* Seção Início */
 
-body::before {
-    content: "";
-    position: fixed; /* Fica parado mesmo ao rolar a página */
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1; /* Fica atrás de tudo (texto, fotos, etc) */
-    pointer-events: none; /* Garante que você consiga clicar nos botões por baixo */
-
-    /* O padrão de pontos (Halftone) */
-    background-image: radial-gradient(circle, #000 15%, transparent 20%);
-    background-size: 12px 12px; /* Tamanho dos pontos e espaçamento */
-
-    /* A Máscara: Cria o efeito de "vinheta" (limpo no meio, pontos nas bordas) */
-    mask-image: radial-gradient(circle, transparent 50%, black 100%);
-    -webkit-mask-image: radial-gradient(circle, transparent 50%, black 100%);
-
-    opacity: 0.15; /* Deixa bem sutil para não cansar a vista */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 100px;
 }
+
+.main-title {
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 10rem;
 
 
 /* Seção Sobre */
@@ -305,46 +296,6 @@ p {
     color: #888;
     margin-top: 5px;
 }
-
-/* Seção Hero */
-
-.hero-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding-bottom: 100px;
-}
-
-.design-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-text: center;
-}
-
-/* Texto de cima */
-.author-tag {
-  display: inline-block;
-  font-weight: bold;
-  position: relative;
-  top: 20px; /* Faz o texto "sentar" na borda da foto */
-  z-index: 10;
-  font-size: 1.5rem;
-  -webkit-text-stroke: 1px white;
-}
-
-.image-frame img {
-  width: 500px;
-  display: block;
-  margin: 0 auto;
-}
-
-/* Título de baixo (O "Portfólio") */
-.main-title {
-  font-family: 'Dancing+Script', sans-serif; /* Use uma Google Font como 'Pacifico' */
-  font-size: 5rem;
     
 /* Contato */
 
