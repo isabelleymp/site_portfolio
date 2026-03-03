@@ -18,10 +18,6 @@ html {
 body {
     font-family: 'Lora', sans-serif;
     background-color: #e3dfce;
-    /* Efeito de pontos no fundo */
-    background-image: radial-gradient(#d1d1d1 1px, transparent 1px);
-    background-size: 30px 30px;
-    color: #333;
 }
 
 /* Header e Navegação */
@@ -347,7 +343,7 @@ p {
 
 /* Título de baixo (O "Portfólio") */
 .main-title {
-  font-family: 'Cursive', sans-serif; /* Use uma Google Font como 'Pacifico' */
+  font-family: 'Dancing+Script', sans-serif; /* Use uma Google Font como 'Pacifico' */
   font-size: 5rem;
     
 /* Contato */
